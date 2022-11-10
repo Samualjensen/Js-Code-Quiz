@@ -10,14 +10,42 @@
 </head>
 
 <body>
+    <!--header containing highscore button and timer-->
     <header>
         <!--high score button-->
         <div><button class="score" id="High Scores"> High Scores</button></div>
         <!--timer-->
         <div class="timer">Time: <span id="timer">0</span></div>
     </header>
+    <!--start quiz section-->
+    <div class="quiz">
+            <div id="startscrn" class="start">
+                <h1>Coding Quiz.</h1>
+                <p>Step right up and test your coding knowledge!
+                    <br></br>    
+                    Try and answer the questions in the time provided and see if you can beat the highscore.
+                    <br></br> 
+                    Be careful though, if you asnwer incorrectly then time will be subtracted.
+                    <br></br> 
+                    Good luck!
+                </p>
+                <button>Start the Quiz.</button>
+            </div>
+    <!--quiz quetions-->
+    <div id="questions" class="hide">
+        <h2 id="question-title"></h2>
+        <div id="choices" class="chioces"></div>
+    </div>
+    <!---->
+    <div id="end-of-quiz" class="hide">
+        <h3>Congrats, you did it!</h3>
+        <p>Your final score is</p> <span id="final-score></span>
+        <p>Enter your intials to log your score.
+    </div>
 
-    
+
+
+
 
 
 
