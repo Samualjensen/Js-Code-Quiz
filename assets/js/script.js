@@ -8,7 +8,7 @@ var submitButton = document.querySelector("#submit");
 var intials = document.querySelector("#intials");
 
 //quiz variables
-var questionIndex = 0;
+// var questionIndex = 0;
 var time = length * 60;
 var timerId;
 
@@ -26,5 +26,5 @@ timerId = setInterval(1000);
 //starting time
 timer.textContent = time;
 
-getQuestion();
-}
+getQuestion()
+};
