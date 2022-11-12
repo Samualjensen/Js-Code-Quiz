@@ -1,3 +1,123 @@
+/*unversial properties*/
 body {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:"DejaVu Sans Mono, monospace";
+    background-color: whitesmoke;
+}
+
+/* hide*/
+/* .hide{
+    display: none;
+}  */
+
+/*score button properties*/
+.score {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 100%;
+    background-color:salmon;
+    border-radius: 50%;
+    padding: 16px;
+    color: white;
+    border: 0;
+}
+/*score button hover*/
+.score:hover {
+    background-color: grey;
+    transition: 2s;
+}
+/*timer properties*/
+.timer{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: inline-block;
+    margin: 10px;
+    font-size: 100%;
+    color: white;
+    background-color: salmon;
+    border-radius: 50%;
+    padding: 16px;
+    border: 0;
+}
+/*timer hover*/
+.timer:hover {
+    background-color: grey;
+    transition: 2s;
+}
+/*quiz title properties*/
+h1 {
+    color: salmon;
+}
+/*start screen properties*/
+.quiz{
+    text-align: center;
+    margin: 100px auto 0 auto;
+    max-width: 600px;
+}
+/*start quiz button properties*/
+.button {
+    text-align: center;
+    display: inline-block;
+    margin: auto;
+    cursor: pointer;
+    font-size: 100%;
+    background-color:salmon;
+    border-radius: 50%;
+    padding: 16px;
+    color: white;
+    border: 0;
+}
+/*start quiz button hover*/
+.button:hover {
+    background-color: grey;
+    transition: 2s;
+}
+/*"congratulations, you did it" properties*/
+h2 {
+    color: salmon;
+}
+/*submit score button properties*/
+.submit {
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 100%;
+    background-color:salmon;
+    border-radius: 50%;
+    padding: 16px;
+    color: white;
+    border: 0;  
+}
+/*submit score button hover*/
+.submit:hover {
+    background-color: grey;
+    transition: 2s;
+}
+/*high score section*/
+.highscore {
+    text-align: center;
+    margin: 100px auto 0 auto;
+    max-width: 600px;
+}
+/*go back and clear highscore buttons*/
+.end-button {
+    text-align: center;
+    display: inline-block;
+    margin: auto;
+    cursor: pointer;
+    font-size: 100%;
+    background-color:salmon;
+    border-radius: 50%;
+    padding: 16px;
+    color: white;
+    border: 0;
+}
+/*go back and clear highscore buttons hover*/
+.end-button:hover {
+    background-color: grey;
+    transition: 2s;
 }
