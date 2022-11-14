@@ -19,12 +19,12 @@ var questions = [
     {
     title: "Upon encountering empty statements, what does Javacript Interpreter do?",
     choices: ["Gives a warning", "Ignores the statement", "Throws an error", "Completes your code for you"],
-    answer: "Ignores the Statement"
+    answer: "Ignores the statement"
 },
     {
     title: "How do you call a function named 'myFunction'?",
     choices: ["myFunction()", "my.function", "(myFunction)", "()myFunction"],
-    answer: "myFUnction()"
+    answer: "myFunction()"
 },
     {
     title: "Which operator is used to assign a value to a variable?",
