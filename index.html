@@ -1,53 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Code Quiz</title>
-</head>
 
-<body>
+  </head>
+
+  <body>
     <!--header containing highscore button and timer-->
     <header>
-        <!--high score button-->
-        <div><a href="highscore.html"><button class="score" id="High Scores"> High Scores</button></a></div>
-        <!--timer-->
-        <div class="timer">Time: <span id="timer">0</span></div>
-    </header>
-    <!--start quiz section-->
-    <div class="quiz">
-            <div class ="start" id="start-screen">
-                <h1>Coding Quiz.</h1>
-                <p>Step right up and test your coding knowledge!
-                    <br></br>    
-                    Try and answer the questions in the time provided and see how many you can get correct.
-                    <br></br> 
-                    Be careful though, if you asnwer incorrectly then time will be subtracted.
-                    <br></br> 
-                    Good luck!
-                </p>
-                <button class="button" id="start-button">Start the Quiz.</button>
-            </div>
-    <!--quiz quetions-->
-    <div id="questions" class="hide">
+    <!--highscore button-->
+    <div><a href="highscore.html"><button class="button">View Highscores</button></a></div>
+    <!--timer-->
+    <div class="timer">Time left: <span id="time">0</span></div>
+    </header>  
+    <!--start quiz section-->  
+    <div class="start-quiz">
+      <div id="start-screen" class="start">
+        <h1>Coding Quiz. &#x1F4BB;</h1>
+        <p>
+            Step right up and test your coding knowledge!
+            <br></br>
+            Try and answer the questions in the time provided and see how many you can get correct.
+            <br></br>
+            Be careful though, if you asnwer incorrectly then time will be subtracted.
+            <br></br>
+            Good luck!
+        </p>
+        <button class="button" id="start">Start the Quiz</button>
+      </div>
+      <!--quiz quetions-->
+      <div id="questions" class="hide">
         <h2 id="question-title"></h2>
-        <div id="choices" class="chioces"></div>
-    </div>
-    <!--end of quiz-->
-    <div id="end-quiz" class="hide" display>
+        <div id="choices" class="choices"></div>
+      </div>
+      <!--end of quiz-->
+      <div id="end-screen" class="hide">
         <h2>Congratulations! You made it!</h2>
-        <p>Your final score is: <span id="final-score"></span></p>
+        <p>Your final score is: <span id="final-score"></span>.</p>
         <p>
           Enter your initials here: <input type="text" id="initials" max="3" />
-          <button class="submit" id="submit-button">Submit</button></p>
+          <button class="button" id="submit">Submit</button>
         </p>
       </div>
+      <!--correct or wrong response-->
+      <div id="feedback" class="feedback hide"></div>
+    </div>
     <!--link to javascript-->
-    <script> src = "./assets/js/script.js"</script>
-    <script> src = "./assets/js/questions.js"</script>
-</body>
-
+    <script src="./assets/js/questions.js"></script>
+    <script src="./assets/js/script.js"></script>
+  </body>
 </html>

@@ -1,25 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <title>Code Quiz Score Screen</title>
-</head>
-<body>
-     <!--score screen-->
-        <div class="highscore" id="highscore-screen">
-          <h1>Highscores</h1>
-          <ol id="highscores"></ol>
-    
-          <a href="index.html"><button  class="end-button" id="go-back">Go Back</button></a>
-          <button class="end-button" id="clear-highscores">Clear Highscores</button>
-        </div>
-        <footer class="thank-you">
-          <p>Thank you for playing.</p>
-          <p>This quiz was made by Sam Jensen.</p>
-        </footer>     
-        <script> src = "./assets/js/highscore.js"</script> 
-</body>
+    <title>Highscores</title>
+  </head>
+
+  <body>
+    <div class="highscores-list">
+      <h1 class = highscores-title>Highscores</h1>
+      <ol id="highscores"></ol>
+
+      <a href="index.html"><button class="end-button" id="go-back">Go Back</button></a>
+      <button class="end-button" id="clear">Clear Highscores</button>
+    </div>
+
+    <footer>
+      <p>Thank you playing.
+      <br><br>
+      This quiz was made by Sam Jensen. &#x1F468;&#x200D;&#x1F3A8;</p> 
+    </footer>
+
+    <script src="./assets/js/highscore.js"></script>
+  </body>
 </html>
